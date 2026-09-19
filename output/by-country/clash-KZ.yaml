@@ -14,7 +14,7 @@ proxies:
   reality-opts:
     public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
   servername: dl.dell.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
