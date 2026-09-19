@@ -5,19 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "138.124.25.250",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "server": "172.67.134.170",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "50414e45-4c5f-5a45-5553-635698a6bb9c",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "jdzit4e4urks.xwzohsebujps.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
+        "path": "/stream/PANEL_ZEUS/635698a6bb9c/loc-0",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "jdzit4e4urks.xwzohsebujps.workers.dev"
         }
       }
     },
@@ -26,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
