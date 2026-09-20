@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: svvedko.nxxzxaw.beer
+- name: 🇦🇱 AL 01 - xiaohe
+  server: alda1.thewalkingded.life
   port: 443
   udp: true
   type: vless
@@ -13,21 +13,21 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  servername: svvedko.nxxzxaw.beer
-  client-fingerprint: ios
+    public-key: 2IBUcPHOhFulmJaICe_xuRBJVgjDqVXB8fjHVdbdOQA
+    short-id: e114ca996877ce3a
+  servername: alda1.thewalkingded.life
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇦🇱 AL 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇦🇱 AL 01 - xiaohe
 rules:
 - MATCH,PROXIES
