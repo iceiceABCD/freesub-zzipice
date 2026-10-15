@@ -17,39 +17,31 @@ proxies:
   udp: true
   type: hysteria2
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: 194.87.118.184
-  skip-cert-verify: true
+  sni: match-stream.lovkisport.blog
+  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 194.87.118.184
   port: 2053
   udp: true
   type: hysteria2
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: false
+  sni: 'off'
+  skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 89.125.103.208
-  port: 20111
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 994ccabf6f0950d6
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 45.133.151.176
-  port: 25375
+  server: 153.80.241.206
+  port: 8444
   udp: true
   type: vless
-  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
   tls: true
   reality-opts:
-    public-key: PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM
-    short-id: 8e2a0cd6de5dc50a
-  servername: www.bing.com
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  servername: github.com
   client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: 05195f917c82
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+    grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 213.165.56.102
   port: 443
   udp: true
@@ -61,9 +53,22 @@ proxies:
     public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g
     short-id: 57e7977c9011061c
   servername: freede.aiage.work
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: du-rov.secureservice.top
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
+    short-id: 3cbc3d737fb9c4af
+  servername: du-rov.secureservice.top
+  client-fingerprint: random
 - name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: 153.80.241.206
+  server: 193.233.74.6
   port: 8444
   udp: true
   type: vless
@@ -71,6 +76,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
   servername: github.com
   client-fingerprint: chrome
   network: grpc
