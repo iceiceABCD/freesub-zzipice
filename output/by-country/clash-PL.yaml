@@ -25,7 +25,7 @@ proxies:
   tls: true
   servername: ru1.radiolumens.uk
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: beru-pl
