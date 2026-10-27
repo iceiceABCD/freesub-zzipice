@@ -4,21 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.19.48.107",
+      "server": "www.ubuntuupdates.com",
       "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "www.ubuntuupdates.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/truth",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "www.ubuntuupdates.com"
         }
       }
     },
