@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "server": "in.smrtai.top",
+      "server": "178.212.35.198",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
@@ -14,7 +14,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -34,7 +34,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -51,44 +51,18 @@
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
+        "path": "/vless"
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "13.140.253.35",
+      "server": "xray-dmr3b3hy-calm-maple-7.cloady.io",
       "server_port": 443,
-      "uuid": "f1d3c8af-71c4-ef75-625f-cf446aa2c15b",
+      "uuid": "06a5afa1-2bbc-a5d1-1770-becd1089c636",
       "tls": {
         "enabled": true,
-        "server_name": "xray-h0urp9tx-rapid-summit-2.cloady.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/050334203cc522a3",
-        "headers": {
-          "Host": "xray-h0urp9tx-rapid-summit-2.cloady.io"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "server": "13.140.253.35",
-      "server_port": 443,
-      "uuid": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
-      "tls": {
-        "enabled": true,
-        "server_name": "xray-bprkdwje-clever-comet-4.cloady.io",
+        "server_name": "xray-dmr3b3hy-calm-maple-7.cloady.io",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -97,9 +71,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/27dbf143acdd7bca",
+        "path": "/0175469f14317d82",
         "headers": {
-          "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
+          "Host": "xray-dmr3b3hy-calm-maple-7.cloady.io"
         }
       }
     },
@@ -111,8 +85,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ]
     },
     {
@@ -122,8 +95,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
