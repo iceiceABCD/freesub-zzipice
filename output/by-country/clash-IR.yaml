@@ -4,28 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: assets.opensignal.com
-  port: 80
+- name: 🇮🇷 IR 01 - xiaohe
+  server: 185.178.208.167
+  port: 443
   udp: true
   type: vless
-  uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
+  uuid: 4eebdec5-08eb-4772-a0e6-35fec4c91cb0
+  tls: true
+  servername: uwugirl.dev
+  skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /logout
+    path: /player/collect/9c8514f9552d/
     headers:
-      Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
+      Host: speakpro.lol
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 rules:
 - MATCH,PROXIES
