@@ -5,23 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-      "server": "46.29.255.123",
-      "server_port": 59539,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "server": "188.225.78.178",
+      "server_port": 443,
+      "uuid": "a4740bee-81ad-4a58-99c9-eca576ecb6e6",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare-dns.com",
+        "server_name": "cadrin.wtf",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ",
-          "short_id": ""
+          "fingerprint": "edge"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "cache.sync.v1"
       }
     },
     {
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
